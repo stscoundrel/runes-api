@@ -1,0 +1,11 @@
+import request from 'supertest';
+import app from '../src/app';
+
+describe('App tests', () => {
+  test('Younger Futhark endpoint works', async () => {
+    const response = await request(app.callback()).get('/younger-futhark/abcdefg');
+
+    expect(response.status).toBe(200);
+    expect(response.text).toBe('ᛅᛒᛋᛏᛁᚠᚴ');
+  });
+});
