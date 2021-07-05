@@ -15,4 +15,11 @@ describe('App tests', () => {
     expect(response.status).toBe(200);
     expect(response.text).toBe('ᚨᛒᚲᛞᛖᚠᚷ');
   });
+
+  test('Futhorc endpoint works', async () => {
+    const response = await request(app.callback()).get('/futhorc/abcdefg');
+
+    expect(response.status).toBe(200);
+    expect(response.text).toBe('ᚪᛒᚳᛞᛖᚠᚷ');
+  });
 });

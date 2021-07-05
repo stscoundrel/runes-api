@@ -12,4 +12,10 @@ describe('Rune service tests', () => {
 
     expect(result).toBe('ᛏᛖᛋᛏ:ᚲᛟᚾᛏᛖᚾᛏ');
   });
+
+  test('Transforms content to Futhorc', () => {
+    const result = runeService.toFuthorc('test content');
+
+    expect(result).toBe('ᛏᛖᛋᛏ:ᚳᚩᚾᛏᛖᚾᛏ');
+  });
 });
