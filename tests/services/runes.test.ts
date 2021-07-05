@@ -6,4 +6,10 @@ describe('Rune service tests', () => {
 
     expect(result).toBe('ᛏᛁᛋᛏ:ᛋᚢᚾᛏᛁᚾᛏ');
   });
+
+  test('Transforms content to Elder Futhark', () => {
+    const result = runeService.toElderFuthark('test content');
+
+    expect(result).toBe('ᛏᛖᛋᛏ:ᚲᛟᚾᛏᛖᚾᛏ');
+  });
 });
