@@ -10,7 +10,9 @@ Simple REST API for transforming text to runes in Koa.
 API transforms content to three different rune dialects.
 
 `localhost:3000/younger-futhark/[YOUR_CONTENT]` -> Younger Futhark
+
 `localhost:3000/elder-futhark/[YOUR_CONTENT]` -> Elder Futhark
+
 `localhost:3000/futhorc/[YOUR_CONTENT]` -> Anglo-Saxon Futhorc runes
 
 ### Related projects
