@@ -1,13 +1,21 @@
-# TypeScript Template
+# Runes API
 
-Template repo for generic TypeScript / Node.js library with tests &amp; lint
+Simple REST API for transforming text to runes in Koa.
 
-### Install
+- Start with `yarn dev`
+- Make requests to localhost:3000
 
-`yarn add name-of-the-package`
+## Rune routes
 
-##### Usage
+API transforms content to three different rune dialects.
 
-```javascript
-// Your usage example here
-```
+`localhost:3000/younger-futhark/[YOUR_CONTENT]` -> Younger Futhark
+`localhost:3000/elder-futhark/[YOUR_CONTENT]` -> Elder Futhark
+`localhost:3000/futhorc/[YOUR_CONTENT]` -> Anglo-Saxon Futhorc runes
+
+### Related projects
+
+- [Runic (Next.js)](https://github.com/stscoundrel/runes)
+- [Younger Futhark transformer](https://github.com/stscoundrel/younger-futhark)
+- [Elder Futhark transformer](https://github.com/stscoundrel/elder-futhark)
+- [Futhorc transformer](https://github.com/stscoundrel/futhorc)
