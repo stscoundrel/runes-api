@@ -13,9 +13,15 @@ describe('Rune service tests', () => {
     expect(result).toBe('ᛏᛖᛋᛏ:ᚲᛟᚾᛏᛖᚾᛏ');
   });
 
-  test('Transforms content to Futhorc', () => {
+  test('Transforms content to Futhorc (anglo-saxon runes)', () => {
     const result = runeService.toFuthorc('test content');
 
     expect(result).toBe('ᛏᛖᛋᛏ:ᚳᚩᚾᛏᛖᚾᛏ');
+  });
+
+  test('Transforms content to Futhork (medieval runes)', () => {
+    const result = runeService.toFuthork('test content');
+
+    expect(result).toBe('ᛏᛁᛋᛏ:ᚴᚮᚿᛏᛁᚿᛏ');
   });
 });
