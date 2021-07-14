@@ -22,4 +22,11 @@ describe('App tests', () => {
     expect(response.status).toBe(200);
     expect(response.text).toBe('ᚪᛒᚳᛞᛖᚠᚷ');
   });
+
+  test('Futhork endpoint works', async () => {
+    const response = await request(app.callback()).get('/futhork/abcdefg');
+
+    expect(response.status).toBe(200);
+    expect(response.text).toBe('ᛆᛒᚴᚦᛁᚠᚵ');
+  });
 });
