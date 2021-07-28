@@ -17,7 +17,7 @@
     "@koa/router": "^10.1.0",
     "elder-futhark": "^1.0.2",
     "futhorc": "^1.0.1",
-    "futhork": "^1.1.0",
+    "futhork": "^1.1.1",
     "koa": "^2.13.1",
     "younger-futhark": "^1.1.0"
   },

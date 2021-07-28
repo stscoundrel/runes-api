@@ -27,6 +27,6 @@ describe('App tests', () => {
     const response = await request(app.callback()).get('/futhork/abcdefg');
 
     expect(response.status).toBe(200);
-    expect(response.text).toBe('ᛆᛒᚴᚦᛁᚠᚵ');
+    expect(response.text).toBe('ᛆᛒᚴᚦᚽᚠᚵ');
   });
 });
