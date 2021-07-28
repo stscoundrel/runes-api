@@ -22,6 +22,6 @@ describe('Rune service tests', () => {
   test('Transforms content to Futhork (medieval runes)', () => {
     const result = runeService.toFuthork('test content');
 
-    expect(result).toBe('ᛏᛁᛋᛏ:ᚴᚮᚿᛏᛁᚿᛏ');
+    expect(result).toBe('ᛏᚽᛋᛏ:ᚴᚮᚿᛏᚽᚿᛏ');
   });
 });
