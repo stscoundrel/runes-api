@@ -1,0 +1,22 @@
+app: runes-api
+service: runes-api
+
+provider:
+  name: aws
+  runtime: nodejs14.x
+  lambdaHashingVersion: 20201221
+
+functions:
+  runes:
+    handler: src/serverless.handler
+    events:
+      - http:
+          path: /
+          method: ANY
+      - http:
+          path: /{any+}
+          method: ANY
+
+plugins:
+  - serverless-offline
+  - serverless-plugin-typescript
