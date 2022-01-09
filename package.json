@@ -20,7 +20,7 @@
     "futhork": "^1.1.2",
     "koa": "^2.13.4",
     "serverless-http": "^2.7.0",
-    "younger-futhark": "^1.1.0"
+    "younger-futhark": "^1.1.1"
   },
   "devDependencies": {
     "@babel/core": "^7.16.7",
