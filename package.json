@@ -17,7 +17,7 @@
     "@koa/router": "^10.1.1",
     "elder-futhark": "^1.0.2",
     "futhorc": "^1.0.1",
-    "futhork": "^1.1.2",
+    "futhork": "^1.1.3",
     "koa": "^2.13.4",
     "serverless-http": "^2.7.0",
     "younger-futhark": "^1.1.1"
