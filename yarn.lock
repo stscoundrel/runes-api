@@ -7426,10 +7426,10 @@ serverless-offline@^8.5.0:
     velocityjs "^2.0.6"
     ws "^7.5.7"
 
-serverless-plugin-typescript@^2.1.1:
-  version "2.1.1"
-  resolved "https://registry.yarnpkg.com/serverless-plugin-typescript/-/serverless-plugin-typescript-2.1.1.tgz#0e6b87a3008f7f3c076778c26169ba6cf50b70dd"
-  integrity sha512-1RbJzNs8I8svnFdM4SPZy87u2WS3wGzs9XqiIGJgZmOOk8OEhzJCrWYv4D7lQRXX6TtPN/EamdPMMCtYYEEMkg==
+serverless-plugin-typescript@^2.1.2:
+  version "2.1.2"
+  resolved "https://registry.yarnpkg.com/serverless-plugin-typescript/-/serverless-plugin-typescript-2.1.2.tgz#a57bb7fcd0c3868f9b0d7e0d970c8916b5814683"
+  integrity sha512-OxfuixdHY9HfWwkuudvrg+5/GWTh0fkZfv1PYfvrh6K0hWOshlH8cKfahRJY6kMYNOV/JqC8//wNo0lT9DKDbQ==
   dependencies:
     fs-extra "^7.0.1"
     globby "^10.0.2"
