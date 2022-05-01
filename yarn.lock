@@ -8618,10 +8618,10 @@ yn@3.1.1:
   resolved "https://registry.yarnpkg.com/yn/-/yn-3.1.1.tgz#1e87401a09d767c1d5eab26a6e4c185182d2eb50"
   integrity sha512-Ux4ygGWsu2c7isFWe8Yu1YluJmqVhxqK2cLXNQA5AcC3QfbGNpM7fu0Y8b/z16pXLnFxZYvWhd3fhBY9DLmC6Q==
 
-younger-futhark@^1.1.1:
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/younger-futhark/-/younger-futhark-1.1.1.tgz#1a00d5e0fa37559e73b18a7fc724a8955c24a164"
-  integrity sha512-mRZxCZOEwcaVAlvAlX9nxDLE8XO2tQsFyNgGloylQQL/UcoPM5rv1ZEixA+skhzu4jpE84tVjMcWWj3H40TbDA==
+younger-futhark@^1.1.2:
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/younger-futhark/-/younger-futhark-1.1.2.tgz#f46d8b638cd8f6cf323e008ce44146586760e403"
+  integrity sha512-xvw3wilZ1It6hDkRXbBWfcECObGDzryx+7bmBRWrujMazKH9BrYGVTBYStfcnU4PceLkf2dpWScYGX30j9kJdA==
 
 zip-stream@^4.1.0:
   version "4.1.0"
