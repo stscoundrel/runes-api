@@ -39,7 +39,7 @@
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-jest": "^26.1.5",
     "jest": "^28.0.3",
-    "serverless": "^3.10.2",
+    "serverless": "^3.16.0",
     "serverless-offline": "^8.7.0",
     "serverless-plugin-typescript": "^2.1.2",
     "supertest": "^6.2.3",
