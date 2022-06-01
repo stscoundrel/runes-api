@@ -4420,10 +4420,10 @@ functional-red-black-tree@^1.0.1:
   resolved "https://registry.yarnpkg.com/functional-red-black-tree/-/functional-red-black-tree-1.0.1.tgz#1b0ab3bd553b2a0d6399d29c0e3ea0b252078327"
   integrity sha1-GwqzvVU7Kg1jmdKcDj6gslIHgyc=
 
-futhorc@^1.0.3:
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/futhorc/-/futhorc-1.0.3.tgz#c1402ffdcbda5b563771ed0d975716884b33a63c"
-  integrity sha512-YGkeKwCjeFWX2P4iecmix/9pJbVTNXV+UmdvKkREAY6pNPtGxTzz6beHAs0iib/QSdhxJz6zNEvu/nxAfIsuGg==
+futhorc@^1.0.4:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/futhorc/-/futhorc-1.0.4.tgz#066e1adbe36666a7f91be247ed9d0a2feec2fb46"
+  integrity sha512-M++hNMJyoepXlbh7dL6hQyuvDDeMEs6DT6zUVyITKC5jKL7npuJRAZ0htGISVnAgPuDI6ux66uMdena5nCXd6w==
 
 futhork@^1.1.5:
   version "1.1.5"
