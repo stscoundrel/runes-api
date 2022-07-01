@@ -3643,10 +3643,10 @@ ee-first@1.1.1:
   resolved "https://registry.yarnpkg.com/ee-first/-/ee-first-1.1.1.tgz#590c61156b0ae2f4f0255732a158b266bc56b21d"
   integrity sha1-WQxhFWsK4vTwJVcyoViyZrxWsh0=
 
-elder-futhark@^1.0.5:
-  version "1.0.5"
-  resolved "https://registry.yarnpkg.com/elder-futhark/-/elder-futhark-1.0.5.tgz#2ba70a3607275310b23e187a87768ae23f433e34"
-  integrity sha512-LWhDIgQlHMM2WHq4RxumJLmcv7gKdQeP4KHK9kSpRwKe+Ofedyg1DVqU2J5I/5VfTRz39aQmTQU+bb8z86M5Iw==
+elder-futhark@^1.0.6:
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/elder-futhark/-/elder-futhark-1.0.6.tgz#5dc61524276b5aed76ec60e09a8e247d433978dc"
+  integrity sha512-xtDHnxPgzJHK4FnrZXQBWlkRLfgpUMFX47nfXBJ/0i51o4hwH2Lnw0YETYnxZnqb1NxDWftNz+XItLIHpbTpAA==
 
 electron-to-chromium@^1.4.118:
   version "1.4.129"
