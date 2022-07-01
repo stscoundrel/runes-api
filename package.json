@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "@koa/router": "^10.1.1",
-    "elder-futhark": "^1.0.5",
+    "elder-futhark": "^1.0.6",
     "futhorc": "^1.0.3",
     "futhork": "^1.1.5",
     "koa": "^2.13.4",
